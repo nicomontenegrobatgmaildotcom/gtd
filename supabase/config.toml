@@ -1,0 +1,6 @@
+# These functions check their own secret key, so Supabase's JWT check is turned off.
+[functions.gtd]
+verify_jwt = false
+
+[functions.gtd-mcp]
+verify_jwt = false
